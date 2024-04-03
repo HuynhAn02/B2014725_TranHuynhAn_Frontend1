@@ -19,7 +19,9 @@ const routes = [
         props : true
     },
     {
-        path: "/contact"
+        path: "/",
+        name:"contact.add",
+        component: () => import("@/views/ContactAdd.vue"),
     }
 ];
 
