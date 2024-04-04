@@ -87,7 +87,7 @@ export default{
             this.retrieveContacts();
             this.activeIndex = -1;
         },
-        async removeAllcontacts(){
+        async removeAllContacts(){
             if(confirm("Bạn muốn xóa tất cả Liên hệ?")){
                 try {
                     await ContactService.deleteAll();
